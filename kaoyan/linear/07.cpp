@@ -1,7 +1,7 @@
-// 从两个有序的线性表 合成 为一个大的有序表
 #include <bits/stdc++.h>
 using namespace std;
 
+// 从两个有序的线性表 合成 为一个大的有序表
 int *merge_sorted_arr(int *a, int m, int *b, int n) {
     int *res = new int[m + n];
     int i = 0, j = 0, pos = 0;

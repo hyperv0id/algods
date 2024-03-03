@@ -1,7 +1,7 @@
-// 删除重复元素，数组有序
-
 #include <bits/stdc++.h>
 using namespace std;
+
+// 删除重复元素，数组有序
 
 int remove_dupl(int *arr, int n) {
     int i = 0, j = 1;

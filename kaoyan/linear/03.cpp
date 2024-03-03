@@ -1,8 +1,7 @@
-// 删除所有值为x的数字
-
 #include <bits/stdc++.h>
 using namespace std;
 
+// 删除所有值为x的数字
 int remove_x(int *arr, int n, int x) {
     int cnt = 0;
     for (int i = 0, j = 0; j < n; j++) {

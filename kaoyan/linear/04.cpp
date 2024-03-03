@@ -1,7 +1,7 @@
-// 删除所有值在 s-t之间的数字, **数组有序**
-
 #include <bits/stdc++.h>
 using namespace std;
+
+// 删除所有值在 s-t之间的数字, **数组有序**
 
 // 和无序的时候复杂度相同
 int remove_x(int *arr, int n, int s, int t) {
